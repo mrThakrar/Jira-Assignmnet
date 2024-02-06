@@ -9,3 +9,10 @@
 5. In controller folder, there is a JavaScript file that contains the code for handling incoming requests and returning responses to the client. It is responsible for processing the request, interacting with the database, and generating the response.
 6. In routes folder,routes are defined using the Express router object, which is a function that takes a path and a callback function as arguments. The callback function is called when a request is made to the specified path.
 7. In model folder, there is typically used to define the data model for an application. This includes defining the different types of data that the application will store, as well as the relationships between those data types.
+
+
+Code Setup : Copy the repo url and clone repo in your local system and run "npm install" to install all dependency, after that run "node app.js" or "nodemon" your    
+             server will start.(need to mention port as .env file is not in here)
+Postman Collection Setup : copy URL and import it into your postman and hit on local server.
+
+NOTE : Here we use mongodb so need to pass URL of your mongo
